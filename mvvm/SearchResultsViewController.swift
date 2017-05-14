@@ -14,7 +14,7 @@ class SearchresultsViewController: UIViewController {
     @IBOutlet weak var tableView: UITableView!
    
     // Init an empty cell representable array
-    var data = [CellRepresentable]()
+    var data = [SearchCellDataRepresentable]()
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -32,7 +32,10 @@ extension SearchresultsViewController: UITableViewDataSource {
     }
 
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        return data[indexPath.row].cellInstance(tableView, indexPath: indexPath)
+        let cell = tableView.dequeueReusableCell(withIdentifier: "DomainCell", for: indexPath) as! SearchTableViewCell
+        cell.setup(vm: data[indexPath.row])
+        return cell
+        
     }
 }
 
