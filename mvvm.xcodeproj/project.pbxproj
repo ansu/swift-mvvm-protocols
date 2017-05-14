@@ -7,13 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E92217291E0488E90095E481 /* CellRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = E92217281E0488E90095E481 /* CellRepresentable.swift */; };
+		88522ADA1EC7E79E00111713 /* DomainDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88522AD91EC7E79E00111713 /* DomainDataModel.swift */; };
+		88522ADC1EC7E7A700111713 /* ProductDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88522ADB1EC7E7A700111713 /* ProductDataModel.swift */; };
+		88522ADE1EC7E80300111713 /* SearchCellDataRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88522ADD1EC7E80300111713 /* SearchCellDataRepresentable.swift */; };
 		E922172D1E04895E0095E481 /* Domain.swift in Sources */ = {isa = PBXBuildFile; fileRef = E922172C1E04895E0095E481 /* Domain.swift */; };
 		E922172F1E0489640095E481 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = E922172E1E0489640095E481 /* Product.swift */; };
-		E92217311E0489BE0095E481 /* DomainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E92217301E0489BE0095E481 /* DomainViewModel.swift */; };
-		E92217331E0489CC0095E481 /* ProductViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E92217321E0489CC0095E481 /* ProductViewModel.swift */; };
-		E92217361E048AF40095E481 /* DomainTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E92217351E048AF40095E481 /* DomainTableViewCell.swift */; };
-		E92217381E048B000095E481 /* ProductTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E92217371E048B000095E481 /* ProductTableViewCell.swift */; };
+		E92217361E048AF40095E481 /* SearchTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E92217351E048AF40095E481 /* SearchTableViewCell.swift */; };
 		E922173C1E0490730095E481 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E922173B1E0490730095E481 /* MainViewController.swift */; };
 		E9D193391E04568200A66D33 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D193381E04568200A66D33 /* AppDelegate.swift */; };
 		E9D1933B1E04568200A66D33 /* SearchResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D1933A1E04568200A66D33 /* SearchResultsViewController.swift */; };
@@ -23,13 +22,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		E92217281E0488E90095E481 /* CellRepresentable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CellRepresentable.swift; sourceTree = "<group>"; };
+		88522AD91EC7E79E00111713 /* DomainDataModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DomainDataModel.swift; sourceTree = "<group>"; };
+		88522ADB1EC7E7A700111713 /* ProductDataModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductDataModel.swift; sourceTree = "<group>"; };
+		88522ADD1EC7E80300111713 /* SearchCellDataRepresentable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchCellDataRepresentable.swift; sourceTree = "<group>"; };
 		E922172C1E04895E0095E481 /* Domain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Domain.swift; sourceTree = "<group>"; };
 		E922172E1E0489640095E481 /* Product.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
-		E92217301E0489BE0095E481 /* DomainViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DomainViewModel.swift; sourceTree = "<group>"; };
-		E92217321E0489CC0095E481 /* ProductViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductViewModel.swift; sourceTree = "<group>"; };
-		E92217351E048AF40095E481 /* DomainTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DomainTableViewCell.swift; sourceTree = "<group>"; };
-		E92217371E048B000095E481 /* ProductTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductTableViewCell.swift; sourceTree = "<group>"; };
+		E92217351E048AF40095E481 /* SearchTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchTableViewCell.swift; sourceTree = "<group>"; };
 		E922173B1E0490730095E481 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		E9D193351E04568200A66D33 /* mvvm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mvvm.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9D193381E04568200A66D33 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -51,13 +49,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		E922172A1E0489500095E481 /* ViewModels */ = {
+		88522AD81EC7E78C00111713 /* DataModels */ = {
 			isa = PBXGroup;
 			children = (
-				E92217301E0489BE0095E481 /* DomainViewModel.swift */,
-				E92217321E0489CC0095E481 /* ProductViewModel.swift */,
+				88522AD91EC7E79E00111713 /* DomainDataModel.swift */,
+				88522ADB1EC7E7A700111713 /* ProductDataModel.swift */,
 			);
-			name = ViewModels;
+			name = DataModels;
 			sourceTree = "<group>";
 		};
 		E922172B1E0489540095E481 /* Models */ = {
@@ -72,8 +70,7 @@
 		E92217341E048ADB0095E481 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				E92217351E048AF40095E481 /* DomainTableViewCell.swift */,
-				E92217371E048B000095E481 /* ProductTableViewCell.swift */,
+				E92217351E048AF40095E481 /* SearchTableViewCell.swift */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -90,7 +87,7 @@
 		E922173E1E04907F0095E481 /* Protocols */ = {
 			isa = PBXGroup;
 			children = (
-				E92217281E0488E90095E481 /* CellRepresentable.swift */,
+				88522ADD1EC7E80300111713 /* SearchCellDataRepresentable.swift */,
 			);
 			name = Protocols;
 			sourceTree = "<group>";
@@ -98,6 +95,7 @@
 		E9D1932C1E04568100A66D33 = {
 			isa = PBXGroup;
 			children = (
+				88522AD81EC7E78C00111713 /* DataModels */,
 				E9D193371E04568200A66D33 /* mvvm */,
 				E9D193361E04568200A66D33 /* Products */,
 			);
@@ -118,7 +116,6 @@
 				E922173D1E0490790095E481 /* View Controllers */,
 				E922173E1E04907F0095E481 /* Protocols */,
 				E922172B1E0489540095E481 /* Models */,
-				E922172A1E0489500095E481 /* ViewModels */,
 				E92217341E048ADB0095E481 /* Views */,
 				E9D1933C1E04568200A66D33 /* Main.storyboard */,
 				E9D1933F1E04568200A66D33 /* Assets.xcassets */,
@@ -201,15 +198,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E92217331E0489CC0095E481 /* ProductViewModel.swift in Sources */,
-				E92217311E0489BE0095E481 /* DomainViewModel.swift in Sources */,
-				E92217381E048B000095E481 /* ProductTableViewCell.swift in Sources */,
 				E9D1933B1E04568200A66D33 /* SearchResultsViewController.swift in Sources */,
-				E92217291E0488E90095E481 /* CellRepresentable.swift in Sources */,
+				88522ADA1EC7E79E00111713 /* DomainDataModel.swift in Sources */,
 				E922172F1E0489640095E481 /* Product.swift in Sources */,
 				E9D193391E04568200A66D33 /* AppDelegate.swift in Sources */,
 				E922172D1E04895E0095E481 /* Domain.swift in Sources */,
-				E92217361E048AF40095E481 /* DomainTableViewCell.swift in Sources */,
+				88522ADC1EC7E7A700111713 /* ProductDataModel.swift in Sources */,
+				88522ADE1EC7E80300111713 /* SearchCellDataRepresentable.swift in Sources */,
+				E92217361E048AF40095E481 /* SearchTableViewCell.swift in Sources */,
 				E922173C1E0490730095E481 /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
