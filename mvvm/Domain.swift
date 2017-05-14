@@ -18,3 +18,5 @@ struct Domain {
     var domainName: String
     var domainStatus: DomainStatus
 }
+
+
